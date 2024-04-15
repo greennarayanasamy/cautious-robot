@@ -694,12 +694,9 @@ tr td{
   cursor:pointer;
 
 }
-
-
 .game {
   position: relative;
-  width:20%;
-  min-width:500px;
+  max-width:400px;
   margin:auto;
 }
 .controls {
@@ -727,7 +724,7 @@ button {
   color: #FFF;
   font-size: 14pt;
   font-weight: bold;
-  width:50%;
+  width:90%;
   height:50%;
 }
 .board-container {
@@ -745,7 +742,7 @@ button {
   padding: 20px;
   display: grid;
   grid-template-columns: repeat(4, auto);
-  grid-gap: 20px;
+  grid-gap: 10px;
 }
 .board-container.flipped .board {
   transform: rotateY(180deg) rotateZ(50deg);
@@ -755,8 +752,8 @@ button {
 }
 .card {
   position: relative;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   cursor: pointer;
 }
 .card-front,
